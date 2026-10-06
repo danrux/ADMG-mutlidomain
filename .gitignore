@@ -1,0 +1,16 @@
+.venv/
+.venv-*/
+.validation-venv/
+.validation/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+outputs/
+causal_discovery/
+*.log
+.env
+.env.*
+.ssh/
+.DS_Store
+Thumbs.db

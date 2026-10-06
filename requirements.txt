@@ -1,0 +1,12 @@
+# Synthetic benchmarks; Python 3.11 recommended.
+numpy==2.2.6
+scipy==1.13.1
+matplotlib==3.10.8
+networkx==3.6.1
+torch==2.10.0
+igraph==1.0.0
+# SP uses Cooper's pre-1.0 optimizer API.
+cooper @ git+https://github.com/cooper-org/cooper.git@eae7c5a68563b83410913c8b24e99b70e32694f3
+autograd==1.8.0
+causal-learn==0.1.4.8
+lingam==1.13.0
