@@ -81,5 +81,3 @@ describes its source data and R requirements.
 - `examples/quickstart.py`: the single example, with selectable method/data.
 
 Third-party notices are preserved in `THIRD_PARTY_NOTICES.md` and `third_party/`.
-`FILE_INVENTORY.json` lists the included files and hashes. See `UPLOAD.md`
-for GitHub upload instructions.
