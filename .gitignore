@@ -1,7 +1,5 @@
 .venv/
 .venv-*/
-.validation-venv/
-.validation/
 __pycache__/
 *.py[cod]
 .pytest_cache/

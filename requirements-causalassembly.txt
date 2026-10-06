@@ -1,4 +1,4 @@
--r requirements-lock.txt
+-r requirements.txt
 causalAssembly==1.2.1
 # Configure R before installing. The component pins preserve the original ABI.
 rpy2==3.6.5

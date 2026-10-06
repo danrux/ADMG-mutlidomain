@@ -5,7 +5,7 @@
   "files": [
     {
       "path": ".gitignore",
-      "sha256": "4a7e61d747e6d68accaf34a206ddb814c2111dd145cdd62656eae5b3a547da8d"
+      "sha256": "df27bde4b1cf65969000830236eb79cf462555e7bca6f23fec2f317e6ece4e1a"
     },
     {
       "path": "data/__init__.py",
@@ -237,19 +237,15 @@
     },
     {
       "path": "README.md",
-      "sha256": "46656cfe47f680a3ed064321e9eaec6a4d35c25c0bc7878aaa3420bcc7ad24cd"
+      "sha256": "cf6afa07bcd77366e14c3b594b8192bd70db8257ca2c925b596b2ac31af9da58"
     },
     {
       "path": "requirements-causalassembly.txt",
-      "sha256": "6830feef0add1eb553ca8431154dbfb17666be266258be3a2f81c9f25dc95051"
-    },
-    {
-      "path": "requirements-lock.txt",
-      "sha256": "1c043c01fbac747f1c39c976828305da01d6c007d861464e24242ec4c09dde17"
+      "sha256": "04956a787df988deba32707c6c25e1ae5da60f3e58a62bb80bca1c3b5280726c"
     },
     {
       "path": "requirements.txt",
-      "sha256": "072a83bcff9de77163fa7491d2bf9fb62b7cef9a94143e41aa8c3046d533456d"
+      "sha256": "cf16234c20045cbf68ccbe5ce412c1618bfc442e63ef793936ae162807cdaaf1"
     },
     {
       "path": "third_party/UMNI-CRL-LICENSE.txt",
@@ -265,15 +261,11 @@
     },
     {
       "path": "UPLOAD.md",
-      "sha256": "8bbfc53165715658cf18bd1a7c7386be627c9717a51a00fc60261e9747434357"
+      "sha256": "12419aea4183f06083abad6c792602db063e4b4088e82fe4adc15dfd655288d2"
     },
     {
       "path": "utils.py",
       "sha256": "22965a2811d57ed74c7e4e0d24442e8c3840b0ec968e9e5cc9ec051bdca2d375"
-    },
-    {
-      "path": "VALIDATION.md",
-      "sha256": "560029e81ee2c9b2f3a9fa4ae3cd5989eb7c7199c507f7ce1b0ddec90e59e05c"
     }
   ]
 }

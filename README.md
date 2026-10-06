@@ -11,14 +11,14 @@ Use Python 3.11 and Git. From this folder:
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-python -m pip install -r requirements-lock.txt
+python -m pip install -r requirements.txt
 ```
 
 On Linux/macOS, activate with `source .venv/bin/activate`.
 For CPU PyTorch wheels, add
 `--extra-index-url https://download.pytorch.org/whl/cpu` to the install command.
-`requirements.txt` lists direct dependencies; the lock file pins transitive
-packages as well. SP uses Cooper's legacy API at the pinned source commit.
+`requirements.txt` pins both direct and transitive dependencies for reproducible
+installation. SP uses Cooper's legacy API at the pinned source commit.
 
 ## One end-to-end example
 
@@ -29,8 +29,8 @@ python examples/quickstart.py
 The default is MuDo-nll on scaling data: three observed variables, seven domains,
 200 samples per domain, seed 2, and 30 optimization steps. It generates data,
 fits the model, scores directed/bidirected edges, and saves the results under
-`outputs/quickstart/synthetic/MuDo-nll/`. This small optimization budget checks
-functionality rather than reproducing paper results.
+`outputs/quickstart/synthetic/MuDo-nll/`. The example uses a small training
+budget for quick execution.
 
 The same example accepts `--method` and `--output`. Available methods and the
 synthetic data selected for each are:
@@ -81,5 +81,5 @@ describes its source data and R requirements.
 - `examples/quickstart.py`: the single example, with selectable method/data.
 
 Third-party notices are preserved in `THIRD_PARTY_NOTICES.md` and `third_party/`.
-`FILE_INVENTORY.json` lists the included files and hashes. See `VALIDATION.md`
-for checks and limitations, and `UPLOAD.md` for GitHub upload instructions.
+`FILE_INVENTORY.json` lists the included files and hashes. See `UPLOAD.md`
+for GitHub upload instructions.

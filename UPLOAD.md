@@ -1,6 +1,6 @@
 # Upload and make an anonymous submission link
 
-1. Review README.md and VALIDATION.md. Confirm the included methods and the single example match your intended
+1. Review README.md. Confirm the included methods and the single example match your intended
    submission package. Retain third-party
    attributions; anonymize your own identifying information.
 2. Create a new empty GitHub repository, for example paper-code. Prefer private
@@ -16,8 +16,8 @@
    git commit -m "Initial submission code"
    ```
 
-   Check that .validation/, .validation-venv/, generated outputs, environments,
-   and generated result directories are absent from the staged list. Run git init
+   Check that generated outputs and virtual environments are absent from the
+   staged list. Run git init
    here, not in the parent development folder. Your normal Git author identity
    is fine for a private source repository; it must not appear to reviewers.
 4. Copy the HTTPS URL from the new GitHub repository, replace OWNER and REPO,
